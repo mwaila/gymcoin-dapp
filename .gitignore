@@ -1,0 +1,46 @@
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Hardhat artifacts
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+types/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# Debug logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+out/
+bundle/
+
+# Local deployment files
+deployments/localhost/
+.openzeppelin/unknown-*.json
+
+# Backup files
+*.backup
+*.bak
+*~

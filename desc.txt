@@ -1,0 +1,81 @@
+# GymToken - Deployment Guide
+
+This document provides a step-by-step guide for deploying your GymToken smart contract to the Sepolia testnet.
+
+## Wallet Information
+
+**Your wallet address:** 0xdf4D45FbAa4EC85e5A19d8af327671B9B462EEcE
+
+This wallet is derived from the private key in your `.env` file. It needs Sepolia test ETH for deployment.
+
+### Recommended Faucets:
+
+1. **Alchemy Sepolia Faucet**
+   - URL: https://www.alchemy.com/faucets/ethereum-sepolia
+   - Amount: 0.5 ETH
+   - Requirements: Free account signup
+
+2. **Sepolia PoW Faucet**
+   - URL: https://sepolia-faucet.pk910.de/
+   - Amount: Variable based on mining time
+   - Requirements: None (browser mining)
+
+3. **Infura Sepolia Faucet**
+   - URL: https://www.infura.io/faucet/sepolia
+   - Amount: 0.5 ETH
+   - Requirements: Infura account
+
+## Deployment Steps
+
+1. **Get Test ETH**
+   - Visit any of the faucets above
+   - Enter your wallet address: 0xdf4D45FbAa4EC85e5A19d8af327671B9B462EEcE
+   - Wait for confirmation (1-2 minutes)
+
+2. **Check Balance**
+   ```
+   npx hardhat run scripts/checkBalance.ts --network sepolia
+   ```
+
+3. **Deploy Contract**
+   ```
+   npx hardhat run scripts/deploy.ts --network sepolia
+   ```
+
+4. **Verify Contract (Optional)**
+   ```
+   npx hardhat verify --network sepolia <DEPLOYED_CONTRACT_ADDRESS> 1000000000
+   ```
+   Replace `<DEPLOYED_CONTRACT_ADDRESS>` with the address you get after deployment.
+
+## Troubleshooting Connection Issues
+
+If you experience network connectivity issues:
+
+1. **Test Connection Before Deploying**:
+   ```
+   npx hardhat run scripts/testConnection.ts --network sepolia
+   ```
+
+2. **Try Alternative RPC URLs**:
+   - Edit your `.env` file and try another URL from these options:
+     ```
+     SEPOLIA_URL=https://rpc.ankr.com/eth_sepolia
+     SEPOLIA_URL=https://ethereum-sepolia.publicnode.com
+     SEPOLIA_URL=https://rpc.sepolia.org
+     SEPOLIA_URL=https://sepolia.gateway.tenderly.co
+     ```
+
+2. **Check Network Status**:
+   - Infura Status: https://status.infura.io/
+   - Alchemy Status: https://status.alchemy.com/
+
+3. **Increase Timeout**:
+   - If needed, modify `hardhat.config.ts` to add timeout settings:
+     ```typescript
+     sepolia: {
+       url: process.env.SEPOLIA_URL || "",
+       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+       timeout: 60000, // 60 seconds
+     },
+     ```
