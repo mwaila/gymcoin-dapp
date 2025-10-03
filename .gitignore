@@ -44,3 +44,4 @@ deployments/localhost/
 *.backup
 *.bak
 *~
+desc.txt
