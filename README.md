@@ -1,7 +1,4 @@
-<video width="100%" controls>
-  <source src="videos/Cryptocurrency_Token_Reveal_Animation.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Gym Coin Intro](videos/Cryptocurrency_Token_Reveal_Animation.gif)
 
 # GymToken - ERC20 Token Project
 
