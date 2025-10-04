@@ -1,4 +1,6 @@
-[Gym Coin Intro](videos/Cryptocurrency_Token_Reveal_Animation.gif)
+<p align="center">
+  <img src="./videos/Cryptocurrency_Token_Reveal_Animation.gif" alt="Gym Coin Intro" width="600" height="350" />
+</p>
 
 # GymToken - ERC20 Token Project
 
